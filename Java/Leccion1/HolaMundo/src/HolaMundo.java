@@ -303,7 +303,6 @@ public class HolaMundo {
         
         solucionAritmetica = (4 + 5)* 6 / 3; // 4+5=9 * 6= 54 / 3= 18
         System.out.println("solucionAritmetica = " + solucionAritmetica);
-        
     }
 
 }

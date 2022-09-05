@@ -19,12 +19,6 @@ public class Ejercicio2 {
         salarioTotal = horasSemanales * salarioHora; 
         System.out.println("\n El salario semanal es: US$"+ salarioTotal);
         
-        
-        
-        
-        
-        
-        
     }
  
 }
