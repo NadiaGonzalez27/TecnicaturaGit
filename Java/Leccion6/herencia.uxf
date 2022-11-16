@@ -1,0 +1,37 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>280</x><y>40</y><w>210</w><h>220</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+-nombre: String
+-genero: char
+-edad: int
+-direccion:String
+--
++getNombre(): Str
++setNombre(String): void
++getGenero(): char
++setGenero(char): void
++getEdad(): int
++setEdad(int): void
++getDireccion(): String
++setDireccion(String): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>370</y><w>210</w><h>160</h></coordinates><panel_attributes>&lt;&lt;Clientes&gt;&gt;
+--
+-idCliente: int
+-fechaRegistro: Date
+-vip: boolean
+--
++getIdCliente(): int
++getFechaRegistro(): Date
++setFechaRegistro(Date): void
++idVip(): boolean
++setVip(boolean): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>370</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+--
+-idEmpleado: int
+-sueldo: double
+--
++getIdEmpleado(): int
++getSueldo(): double
++setSueldo(double): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>300</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=.&gt;
+</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>300</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=.&gt;
+</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>290</y><w>210</w><h>40</h></coordinates><panel_attributes>&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>290</y><w>220</w><h>40</h></coordinates><panel_attributes>&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>250</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
