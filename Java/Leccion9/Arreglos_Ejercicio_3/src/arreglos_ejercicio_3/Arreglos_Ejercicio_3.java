@@ -17,7 +17,7 @@ public class Arreglos_Ejercicio_3 {
         
         System.out.println("Guardando los datos en el arreglo: ");
         for (int i = 0; i < 5; i++) {
-            System.out.println((i + 1) + ". Digite un numero: \t");
+            System.out.println((i + 1) + ". Digite un numero: ");
             numeros[i] = entrada.nextFloat();
             if(numeros[i] > 0){
                 positivos += numeros[i];
