@@ -40,7 +40,7 @@ class Persona2:
     def __del__(self):
         print(f'Persona2: {self._nombre} {self._apellido} {self._edad}')
 
-if __name__ == '__main__':
+if __name__ == '__main__': #Comprobacion del metodo main
     persona1 = Persona2('Ariel', 'Betancud', 41)
     print(persona1.nombre)  # Llamamos al método getter
     persona1.nombre = 'Juan Pedro'  # llamamos al metodo setter
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     print(persona1.edad)
 
     # Tarea crear tres objetos mas, utilizando los métodos getter and setter
-    # paramodificar, y mostrar los cambios con el método mostrar_detalles
+    # para modificar, y mostrar los cambios con el método mostrar_detalles
 
     # Objeto numero uno de la tarea
     persona2 = Persona2('Nadia', 'Gonzalez', 26)
